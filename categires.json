@@ -1,0 +1,13 @@
+[
+    {
+        "status": true,
+        "message": "Fatched categories successfully",
+        "data": [
+            {
+                "id": 1,
+                "image": "https://example.com/image1.jpg",
+                "title": ""
+            }
+        ]
+    }
+]
