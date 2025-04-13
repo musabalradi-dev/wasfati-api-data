@@ -7,7 +7,7 @@
                 "id": 1,
                 "image": "https://img-global.cpcdn.com/recipes/d4d7f088362bee81/1280x1280sq70/photo.webp",
                 "title": "وجبة دجاج صحية تصلح للدايت",
-                "categoires": "للدايت",
+                "categories": "للدايت",
                 "ingredients": [
                     "1 بكت (1 م) بهارات ايطالية",
                     "1 كوب صلصة طماطم مهروسة",
@@ -59,9 +59,9 @@
             },
             {
                 "id": 2,
-                "image": "",
-                "title": "",
-                "category":"",
+                "image": "https://img-global.cpcdn.com/recipes/c574d332ee4c880c/1280x1280sq70/photo.webp",
+                "title": "وجبة دجاج صحية",
+                "categories":"",
                 "ingredients": [
                     "صحن صدور دجاج",
                     "خضار الموجود عندك قرع - كوسه -فلفل رومي",
@@ -117,7 +117,7 @@
                 "id": 3,
                 "image": "",
                 "title": "",
-                "category":"",
+                "categories":"",
                 "ingredients":"",
                 "preparation":"",
                 "cooking_time":"",
