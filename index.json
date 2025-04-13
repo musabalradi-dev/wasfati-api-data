@@ -1,0 +1,45 @@
+[
+    {
+        "status": true,
+        "message": "Request was successful",
+        "code": 200,
+        "data": {
+            "id": 1,
+            "image": "https://example.com/image.jpg",
+            "title": "وجبة دجاج صحية تصلح للدايت",
+            "category": "Sample Category",
+            "ingredients": [
+                "1 بكت (1 م) بهارات ايطالية",
+                "1 كوب صلصة طماطم مهروسة",
+                "1/2 كوب كريمة خفق",
+                "2 قطعة دجاج 2م حليب",
+                "1 م ملح 1م كركم 1م بابريكا",
+                "2 م كريمة",
+                "سلطة خضار",
+                "1 حبةخيار فلفل رومي ذرة بازلاء",
+                "الصوص ليمون ملح فلفل"
+            ],
+            "preparation":[],
+            "cooking_time": "30 دقيقة",
+            "servings": "4 أشخاص",
+            "calories": "300 سعرة حرارية",
+            "tags": [
+                "دجاج",
+                "دايت",
+                "صحي"
+            ],
+            "author": {
+                "name": "اسم المؤلف",
+                "image": "https://example.com/author.jpg",
+                "description": "وصف المؤلف"
+            },
+            "source": {
+                "name": "اسم المصدر",
+                "image": "https://example.com/source.jpg",
+                "description": "وصف المصدر"
+            },
+            "source_link": "https://example.com/source-link",
+            "source_link_text": "رابط المصدر"
+        }
+    }
+]
