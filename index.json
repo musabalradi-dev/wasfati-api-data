@@ -2,44 +2,645 @@
     {
         "status": true,
         "message": "Request was successful",
-        "code": 200,
-        "data": {
-            "id": 1,
-            "image": "https://example.com/image.jpg",
-            "title": "وجبة دجاج صحية تصلح للدايت",
-            "category": "Sample Category",
-            "ingredients": [
-                "1 بكت (1 م) بهارات ايطالية",
-                "1 كوب صلصة طماطم مهروسة",
-                "1/2 كوب كريمة خفق",
-                "2 قطعة دجاج 2م حليب",
-                "1 م ملح 1م كركم 1م بابريكا",
-                "2 م كريمة",
-                "سلطة خضار",
-                "1 حبةخيار فلفل رومي ذرة بازلاء",
-                "الصوص ليمون ملح فلفل"
-            ],
-            "preparation":[],
-            "cooking_time": "30 دقيقة",
-            "servings": "4 أشخاص",
-            "calories": "300 سعرة حرارية",
-            "tags": [
-                "دجاج",
-                "دايت",
-                "صحي"
-            ],
-            "author": {
-                "name": "اسم المؤلف",
-                "image": "https://example.com/author.jpg",
-                "description": "وصف المؤلف"
+        "data": [
+            {
+                "id": 1,
+                "image": "https://img-global.cpcdn.com/recipes/d4d7f088362bee81/1280x1280sq70/photo.webp",
+                "title": "وجبة دجاج صحية تصلح للدايت",
+                "categoires": "للدايت",
+                "ingredients": [
+                    "1 بكت (1 م) بهارات ايطالية",
+                    "1 كوب صلصة طماطم مهروسة",
+                    "1/2 كوب كريمة خفق",
+                    "2 قطعة دجاج 2م حليب",
+                    "1 م ملح 1م كركم 1م بابريكا",
+                    "2 م كريمة",
+                    "سلطة خضار",
+                    "1 حبةخيار فلفل رومي ذرة بازلاء",
+                    "الصوص ليمون ملح فلفل"
+                ],
+                "preparation": {
+                    "step1": {
+                        "text": "نسلق المكرونة وتتبل لصوص الطماطم والكريمة والملح والفلفل والبهارات",
+                        "image": [
+                            "https://img-global.cpcdn.com/steps/a042f0b287591afe/1280x1280sq70/photo.webp",
+                            "https://img-global.cpcdn.com/steps/b985ad9fd3d18fcc/1280x1280sq70/photo.webp"
+                        ]
+                    },
+                    "step2": {
+                        "text": "نترك الدجاج في الحليب والبهارات والثوم لمدة ساعة ثم نضع الصلصة والكريمة على الدجاج وتدخل الفرن",
+                        "image": [
+                            "https://img-global.cpcdn.com/steps/8ac5a8309f8209e3/1280x1280sq70/photo.webp"
+                        ]
+                    },
+                    "step3": {
+                        "text": "نخلط مكونات السلطة مع الليمون والملح والفلفل",
+                        "image": [
+                            "https://img-global.cpcdn.com/steps/bdc436fd4c7bfc27/1280x1280sq70/photo.webp",
+                            "https://img-global.cpcdn.com/steps/ab461809dfb23d58/1280x1280sq70/photo.webp",
+                            "https://img-global.cpcdn.com/steps/2d063cb8625f22ce/1280x1280sq70/photo.webp"
+                        ]
+                    },
+                    "step4": {
+                        "text": "نرتب الدجاج في الطبق مع المكرونةوالسلطة",
+                        "image": [
+                            "https://img-global.cpcdn.com/steps/9c36cdbed69f77bd/1280x1280sq70/photo.webp",
+                            "https://img-global.cpcdn.com/steps/07395c8a9db72d39/1280x1280sq70/photo.webp",
+                            "https://img-global.cpcdn.com/steps/4305650fd4332751/1280x1280sq70/photo.webp"
+                        ]
+                    }
+                },
+                "cooking_time": "30 دقيقة",
+                "tags": [
+                    "دجاج",
+                    "دايت",
+                    "صحي"
+                ]
             },
-            "source": {
-                "name": "اسم المصدر",
-                "image": "https://example.com/source.jpg",
-                "description": "وصف المصدر"
+            {
+                "id": 2,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients": [
+                    "صحن صدور دجاج",
+                    "خضار الموجود عندك قرع - كوسه -فلفل رومي",
+                    "ملح حسب الرغبة",
+                    "كمون",
+                    "فلفل احمر مطحون",
+                    "خل بلسمك",
+                    "خل ابيض",
+                    "ملعقة زيت زيتون",
+                    "بصل",
+                    "ثوم"
+                ],
+                "preparation":{
+                    "step1": {
+                        "text": "تقطع صدور الدجاج كل قطعة صدر الى ثلاث شرائح ترقق",
+                        "image": [
+                            "https://img-global.cpcdn.com/steps/a06ab943af613983/1280x1280sq70/photo.webp"
+                        ]
+                    },
+                    "step2": {
+                        "text": "تقطع الخضار بالطول قطع كبيرة",
+                        "image": [
+                            "https://img-global.cpcdn.com/steps/6024c4f682998cc6/1280x1280sq70/photo.webp"
+                        ]
+                    },
+                    "step3": {
+                        "text": "تضاف البهارات على الدجاج وتخلط جميعها جيدا ويضاف الخل الابيض وخل البلسمك",
+                        "image": [
+                            "https://img-global.cpcdn.com/steps/bd4d74a0348fb427/1280x1280sq70/photo.webp"
+                        ]
+                    },
+                    "step4": {
+                        "text": "توضع في الصينية وتدخل على الفرن وتغطًى بالقصدير وتترك لمد ٤٥ دقيقة",
+                        "image": [
+                            "https://img-global.cpcdn.com/steps/045510200aebbdfa/1280x1280sq70/photo.webp"
+                        ]
+                    },
+                    "step5": {
+                        "text": "وتقدم الى جانب الارز الابيض",
+                        "image": [
+                            "https://img-global.cpcdn.com/steps/8bd1f12ba07854c2/1280x1280sq70/photo.webp"
+                        ]
+                    }
+                },
+                "cooking_time":"60 دقيقة",
+                "tags":[
+                    "دجاج",
+                    "دايت",
+                    "صحي"
+                ]
             },
-            "source_link": "https://example.com/source-link",
-            "source_link_text": "رابط المصدر"
-        }
+            {
+                "id": 3,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 4,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 5,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 6,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 7,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 8,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 9,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 10,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 11,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 12,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 13,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 14,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 15,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 16,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 17,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 18,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 19,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 20,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 21,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 22,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 23,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 24,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 25,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 26,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 27,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 28,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 29,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 30,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 31,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 32,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 33,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 34,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 35,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 36,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 37,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 38,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 39,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 40,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 41,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 42,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 43,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 44,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 45,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 46,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 47,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 46,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 49,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            },
+            {
+                "id": 50,
+                "image": "",
+                "title": "",
+                "category":"",
+                "ingredients":"",
+                "preparation":"",
+                "cooking_time":"",
+                "servings":"",
+                "tags":[]
+            }
+        ]
     }
 ]
