@@ -1,7 +1,7 @@
 [
     {
         "status": true,
-        "message": "Request was successful",
+        "message": "Fatched recipes data successful",
         "data": [
             {
                 "id": 1,

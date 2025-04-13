@@ -1,7 +1,7 @@
 [
     {
         "status": true,
-        "message": "Fatched categories successfully",
+        "message": "Fatched categories data successfully",
         "data": [
             {
                 "id": 1,
